@@ -1,1 +1,0 @@
-{"binance": {"key": "IeeVUaMIHswFQHo9ewBoHD7otFX5QW2QkzmKOun4HLq8r8YmFsdDSNQmYoO3jynv", "secret": "X20pxTrk8tDpU2FG0dSVPfAItVrahKSRCYS4nxtsoonuq2kIW2hez44EwemR260O"}}
