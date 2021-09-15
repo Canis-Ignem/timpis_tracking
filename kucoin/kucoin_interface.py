@@ -43,6 +43,9 @@ def coin_to_dollar(coin):
 
     return balance * price
 
+def check_price(coin_name):
+    return float(client.get_ticker(coin_name + '-USDT')['price'])
+
 def buy(coin, spend, price):
     
     order = client.create_limit_order(coin['ticker'], Client.SIDE_BUY, str(spend/price),str(price))
@@ -54,3 +57,5 @@ def sell(coin, pct, price):
 
     order = client.create_limit_order(coin['ticker'], Client.SIDE_SELL, str(pct*balance) ,str(price))
     return order
+
+print(check_price("DAG"))
