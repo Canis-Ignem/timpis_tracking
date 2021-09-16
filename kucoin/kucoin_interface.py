@@ -57,5 +57,3 @@ def sell(coin, pct, price):
 
     order = client.create_limit_order(coin['ticker'], Client.SIDE_SELL, str(pct*balance) ,str(price))
     return order
-
-print(check_price("DAG"))
